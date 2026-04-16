@@ -14,8 +14,8 @@ RUN apt-get update && \
     mv /winehq.key /usr/share/keyrings/winehq-archive.key && \
     dpkg --add-architecture i386 && \
     apt-get update && \
-    apt-get install -y -q --install-recommends winehq-devel && \
-    apt-get install -y xvfb && \
+    apt-get install -y -q --install-recommends winehq-stable && \
+    apt-get install -y xvfb imagemagick && \
     rm -rf /var/lib/apt/lists/*
 
 # Add a non-root wine user
@@ -23,6 +23,9 @@ RUN apt-get update && \
 RUN groupadd -g 1000 wine \
     && useradd -g wine -u 1000 wine \
     && mkdir -p /home/wine/.wine && chown -R wine:wine /home/wine
+
+
+RUN apt-get update
 
 # MetaTrader 4/5 needs WINEARCH=win32
 ENV WINEARCH=win32
@@ -37,9 +40,9 @@ COPY entrypoint.sh /app/entrypoint.sh
 
 RUN chown -R wine:wine /app && chmod +x /app/entrypoint.sh
 
-# Pre-initialise the Wine prefix as the wine user
+# Allow non-root user to start Xvfb
+RUN mkdir -p /tmp/.X11-unix && chmod 1777 /tmp/.X11-unix
+
 USER wine
-RUN xvfb-run -a wineboot --init && \
-    while pgrep wineserver > /dev/null; do sleep 1; done
 
 ENTRYPOINT ["/app/entrypoint.sh"]

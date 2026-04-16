@@ -4,16 +4,12 @@ PASSWORD=$2
 SERVER=$3
 
 # 1. Tạo file cấu hình tự động login
-cat <<EOF > /app/MT4Login.ini
+cat <<EOF > /app/mt4/MT4Login.ini
 ; common settings
 Login=$ACCOUNT
 Password=$PASSWORD
 Server=$SERVER
 EnableNews=0
-AutoConfiguration=true
-;experts
-ExpertsEnable=true
-ExpertsDllImport=true
 ;charts
 Symbol=XAUUSD
 Period=H4
@@ -41,15 +37,15 @@ export WINEDEBUG=-all
 export WINEDLLOVERRIDES="mscoree,mshtml=;secur32=n,b"
 export DISPLAY=:99
 
-# Tạo Wine prefix nếu chưa có
+# Initialise Wine prefix and wait for wineserver to finish
 wineboot -u
+while pgrep wineserver > /dev/null; do sleep 1; done
 
-cat <<EOF > /home/wine/.wine/user.reg
-[HKEY_CURRENT_USER\Software\Wine\DllOverrides]
-"mscoree"=""
-"mshtml"=""
-"secur32"="n,b"
-EOF
+# Apply DLL overrides via registry
+wine reg add 'HKCU\Software\Wine\DllOverrides' /v mscoree /t REG_SZ /d '' /f
+wine reg add 'HKCU\Software\Wine\DllOverrides' /v mshtml   /t REG_SZ /d '' /f
+wine reg add 'HKCU\Software\Wine\DllOverrides' /v secur32  /t REG_SZ /d 'n,b' /f
+while pgrep wineserver > /dev/null; do sleep 1; done
 
 echo "Cấu hình Wine đã sẵn sàng."
 
@@ -62,7 +58,7 @@ echo "Đang khởi động MT4..."
 cd /app/mt4/
 
 # QUAN TRỌNG: Phải có tiền tố /config: cho file cấu hình và Z: cho đường dẫn Linux
-wine terminal.exe /portable /config:Z:/app/MT4Login.ini &
+wine terminal.exe /portable MT4Login.ini &
 
 # Giữ container sống để xem log
 echo "MT4 đang chạy ngầm..."
