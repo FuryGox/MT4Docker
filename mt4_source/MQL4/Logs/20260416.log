@@ -1,0 +1,24 @@
+0	09:38:39.345	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	09:38:39.345	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	09:38:39.366	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	09:38:39.366	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	09:38:39.384	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	09:38:39.385	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	09:38:42.740	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	09:38:42.747	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	09:38:42.761	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	09:38:49.812	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	09:38:49.812	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	09:38:49.827	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	09:38:49.827	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	09:38:49.843	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	09:38:49.843	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	09:38:52.680	LumirMT4_v2 XAUUSD,H4: initialized
+0	09:38:52.729	LumirMT4_v2 XAUUSD,H4: initialized
+0	09:38:52.795	LumirMT4_v2 XAUUSD,H4: initialized
+0	09:39:06.564	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	09:39:06.564	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	09:39:06.565	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	09:39:06.598	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	09:39:06.603	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	09:39:06.611	Expert LumirMT4_v2 XAUUSD,H4: removed

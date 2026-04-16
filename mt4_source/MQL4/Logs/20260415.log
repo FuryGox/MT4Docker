@@ -1,0 +1,67 @@
+0	14:03:32.022	Compiling 'MACD Sample'
+0	14:03:32.022	Compiling 'Moving Average'
+0	14:03:32.539	Compiling 'Accelerator'
+0	14:03:32.539	Compiling 'Accumulation'
+0	14:03:32.539	Compiling 'Alligator'
+0	14:03:32.539	Compiling 'ATR'
+0	14:03:32.539	Compiling 'Awesome'
+0	14:03:32.539	Compiling 'Bands'
+0	14:03:32.539	Compiling 'Bears'
+0	14:03:32.539	Compiling 'Bulls'
+0	14:03:32.539	Compiling 'CCI'
+0	14:03:32.539	Compiling 'Custom Moving Averages'
+0	14:03:32.539	Compiling 'Heiken Ashi'
+0	14:03:32.539	Compiling 'Ichimoku'
+0	14:03:32.539	Compiling 'iExposure'
+0	14:03:32.539	Compiling 'MACD'
+0	14:03:32.539	Compiling 'Momentum'
+0	14:03:32.539	Compiling 'OsMA'
+0	14:03:32.539	Compiling 'Parabolic'
+0	14:03:32.539	Compiling 'RSI'
+0	14:03:32.539	Compiling 'Stochastic'
+0	14:03:32.539	Compiling 'ZigZag'
+0	14:03:32.539	Compiling 'SimplePanel'
+0	14:03:34.725	Compiling 'PeriodConverter'
+0	14:03:34.725	Compiling 'DLLSampleTester'
+0	14:03:34.725	Compiling 'PipeClient'
+0	14:03:34.725	Compiling 'PipeClientPure'
+0	14:03:35.280	Compiling 'stdlib'
+0	14:15:02.168	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:15:04.412	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:15:04.431	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:15:50.163	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	14:15:50.218	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:15:59.053	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:15:59.053	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:15:59.075	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:15:59.075	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:16:01.140	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:16:01.140	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:16:10.927	Automated trading disabled
+3	14:16:10.927	Automated trading disabled because the account has been changed
+0	14:16:13.806	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	14:16:13.885	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	14:16:13.928	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:16:13.938	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:16:16.640	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:16:16.640	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:16:16.657	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:16:16.658	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:16:19.268	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:16:19.276	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:16:24.289	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:16:24.289	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:16:24.312	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:16:24.312	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:16:24.341	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+0	14:16:24.341	LumirMT4_v2 XAUUSD,H4 inputs: InpHistoryURL=https://ftmo-real-api.buso.asia/api/v1/trade-history; InpPositionURL=https://ftmo-real-api.buso.asia/api/v1/live-trading; InpTimerInterval=3; InpSendAllHistoryOnStart=true; 
+0	14:16:24.547	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:16:26.344	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:16:26.363	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:16:26.363	LumirMT4_v2 XAUUSD,H4: initialized
+0	14:16:31.995	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	14:16:31.996	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	14:16:31.996	LumirMT4_v2 XAUUSD,H4: uninit reason 9
+0	14:16:32.042	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:16:32.047	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	14:16:32.053	Expert LumirMT4_v2 XAUUSD,H4: removed
