@@ -1,0 +1,28 @@
+0	08:38:20.200	MetaTrader 4 build 1471 started (MetaQuotes Software Corp.)
+0	08:38:20.200	Windows 10 Home Single Language x64, UAC, 16 x 11th Gen Intel Core i7-11800H @ 2.30GHz, Memory: 9209 / 16085 Mb, Disk: 105 / 111 Gb, GMT+7
+0	08:38:20.200	Data Folder: D:\docketTrader\docker\MT4Docker\mt4_source
+2	08:38:21.060	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+2	08:38:21.092	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+2	08:38:21.115	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+1	08:38:43.549	'200217361': connect failed [No connection]
+2	08:40:01.816	Expert LumirMT4_v2 XAUUSD,H4: removed
+2	08:40:01.819	Expert LumirMT4_v2 XAUUSD,H4: removed
+2	08:40:01.824	Expert LumirMT4_v2 XAUUSD,H4: removed
+0	08:40:02.071	MetaTrader 4 build 1471 stopped
+0	08:41:02.275	MetaTrader 4 build 1471 started (MetaQuotes Software Corp.)
+0	08:41:02.275	Windows 10 Home Single Language x64, UAC, 16 x 11th Gen Intel Core i7-11800H @ 2.30GHz, Memory: 9502 / 16085 Mb, Disk: 105 / 111 Gb, GMT+7
+0	08:41:02.275	Data Folder: D:\docketTrader\docker\MT4Docker\mt4_source
+2	08:41:02.761	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+2	08:41:02.777	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+2	08:41:02.794	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+1	08:41:03.066	'200217361': connect failed [No connection]
+1	08:41:17.509	MQL5.community: authorization failed
+0	08:41:17.858	MetaTrader 4 build 1471 stopped
+0	08:45:05.651	MetaTrader 4 build 1471 started (MetaQuotes Software Corp.)
+0	08:45:05.651	Windows 10 Home Single Language x64, UAC, 16 x 11th Gen Intel Core i7-11800H @ 2.30GHz, Memory: 8099 / 16085 Mb, Disk: 105 / 111 Gb, GMT+7
+0	08:45:05.651	Data Folder: D:\docketTrader\docker\MT4Docker\mt4_source
+2	08:45:06.260	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+2	08:45:06.281	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+2	08:45:06.306	Expert LumirMT4_v2 XAUUSD,H4: loaded successfully
+1	08:45:06.597	'200217361': connect failed [No connection]
+0	08:46:14.733	MetaTrader 4 build 1471 stopped
